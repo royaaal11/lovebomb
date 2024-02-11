@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakout Game</title>
+<link rel="stylesheet" type="text/css" href="breakoutstyle.css">
+</head>
+<body>
+<div id="game-container">
+    <canvas id="gameCanvas" width="750" height="600"></canvas>
+    <button id="start-button">Start Game</button>
+    <button id="restart-button" style="display: none;">Restart Game</button>
+    <button id="win-button">End</button>
+</div>
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+        <p>Congratulations! You win!</p>
+        <p>Click <a href="#">here</a> to open a present!</p>
+    </div>
+</div>
+<script src="breakoutscript.js"></script>
+</body>
+</html>
